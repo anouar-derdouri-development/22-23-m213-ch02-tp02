@@ -11,6 +11,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.M213ch02tp01crjtrainees"
         tools:targetApi="31">
+
+        <activity
+            android:name=".Ex01KotlinActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
         <activity
             android:name=".Ex01Activity"
             android:exported="true">
@@ -20,6 +31,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
     </application>
 
 </manifest>
